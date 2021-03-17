@@ -6,6 +6,23 @@ using System.Threading.Tasks;
 
 namespace EjerciciosArraysPascal
 {
+    //El ejercicio consiste en mostrar diferentes nombres de ciudad por consola en función de una matriz y modificar los nombres cambiando letras.
+    //FASE 1
+    //-          Crea seis variables de tipo cadena vacías.
+    //-          Pide por la consola que escriban los nombres.
+    //-          Introduce los siguientes nombres de ciudades (Barcelona, Madrid, Valencia, Málaga, Cádiz, Santander) por teclado.
+    //-          Muestra por consola el nombre de las 6 ciudades.
+    //FASE 2
+    //-          Una vez que tengamos los nombres de las ciudades almacenadas en variables tendremos que pasar la información a una matriz (arrayCiudades).
+    //-          Cuando tengamos la matriz completa, tendremos que mostrar por consola el nombre de las ciudades ordenadas en orden alfabético.
+    //FASE 3
+    //-         Cambia las vocales "a" de los nombres de ciudad por el número “4” y guarda los nombres modificados en una nueva matriz (ArrayModified).
+    //-          Mostrar por la consola la matriz modificada y ordenada por orden alfabético.
+    //FASE 4
+    //-          Crea una nueva matriz para cada una de las ciudades que tenemos. El tamaño de las nuevas matrices será la longitud de cada cadena (nameCiutat.Length).
+    //-          Rellene las nuevas matrices letra por letra.
+    //-         Mostrar por consola las nuevas matrices con los nombres invertidos (Por ejemplo: Barcelona - anolecraB).
+
     class Program
     {
         static void Main(string[] args)
