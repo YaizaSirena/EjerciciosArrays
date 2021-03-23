@@ -64,12 +64,13 @@ namespace EjerciciosArraysPascal
             Array.Sort<string>(arrayCiudadesModify);      
             for (int i = 0; i < 6; i++)
             {
-                Console.WriteLine(arrayCiudadesModify[i]);            
+                Console.WriteLine(arrayCiudadesModify[i]);        // a partir de aquí no tocar variable.    
             }
 
             //Creamos un array para cada variable, con la longitud  de cada palabra introducida:
+            //Crear todos los arrays con un unico bucle
+
             string[] arrayBarcelona = new string[c1.Length];
-            
             //Introducimos las letras en las posiciones
             for (int i = 0; i < c1.Length; i++)             
             {
@@ -107,10 +108,10 @@ namespace EjerciciosArraysPascal
             }
             Console.WriteLine();
 
-            string[] arrayMálaga = new string[c4.Length];
-            for (int i = 0; i < c4.Length; i++)
+            char[] arrayMálaga = new char[c4.Length];
+            for (int i = 0; i < c4.Length; i++)   //array.lenght (no lengt de variable)
             {
-                arrayMálaga[i] = c4.Substring(i, 1);
+                arrayMálaga[i] = c4[i]; // en todos.
             }
             Array.Reverse(arrayMálaga);
             for (int i = 0; i < c4.Length; i++)
